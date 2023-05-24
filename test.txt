@@ -1,3 +1,3 @@
 Test
 Conflict
-on local
+on local - on remote
