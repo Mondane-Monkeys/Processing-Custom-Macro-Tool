@@ -1,4 +1,5 @@
 Test local local
+Conflict woooooww
 Conflict conflicting
 on local - on remote on remote
 conlict
