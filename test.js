@@ -1,10 +1,22 @@
-class animal{
+class Animal{
 	#name;
 
 	constructor(name){
 		this.#name = name;
 	}
+	
+	toString(){
+		return "Named "+this.#name
+	}
 }
 
-var cat = new animal("Cat");
-console.log(cat);
+class Cat extends Animal {
+	constructor(name){
+		super(name);
+	}
+	
+	toString(){
+		return "This is a cat"+super.toString();
+	}
+}
+
